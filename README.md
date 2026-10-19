@@ -2,7 +2,8 @@
  
 A CHIP-8 interpreter written in C++, using SDL for the window, rendering, and keyboard input.
  
-<!-- Add a screenshot of the IBM logo ROM or a game here: ![screenshot](docs/screenshot.png) -->
+![IBM logo running](IBMLogo.png)
+![Space Invaders running](SpaceInvaders.png)
  
 ## Features
  
@@ -18,7 +19,7 @@ A CHIP-8 interpreter written in C++, using SDL for the window, rendering, and ke
 ## Building
  
 1. Clone the repository.
-2. Install [vcpkg](https://github.com/microsoft/vcpkg), run `vcpkg integrate install`, then install SDL3 with `vcpkg install sdl3:x64-windows`. [If the repo includes a `vcpkg.json`, replace this step with: SDL3 is restored automatically on build.]
+2. Install [vcpkg](https://github.com/microsoft/vcpkg), run `vcpkg integrate install`, then install SDL3 with `vcpkg install sdl3:x64-windows`.
 3. Open `Chip-8.sln` in Visual Studio and build.
 ## Running
  
